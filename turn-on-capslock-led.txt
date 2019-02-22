@@ -1,0 +1,10 @@
+    1  echo "1" > /sys/class/leds/input1\:\:capslock/brightness
+    2  echo
+    3  echo "1" > /sys/class/leds/input1\:\:capslock/brightness
+    4  history
+    5  history | tail
+    6  echo "1" > /sys/class/leds/input1\:\:capslock/brightness
+    7  echo "0" > /sys/class/leds/input1\:\:capslock/brightness
+    8  history | tail
+    9* 
+   10  history >> /home/nsaini/CIT173_Lab5/turn-on-capslock-led.txt
